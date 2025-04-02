@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@theme {
+  --color-blackTimeline: #282419;
+  --color-redTimeline: #c43726;
+  --color-whiteTimeline: #f1dcbd;
+  --color-emeraldTimeline: #449a6d;
+  --color-amazonTimeline: #366b4c;
+}

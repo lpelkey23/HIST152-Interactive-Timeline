@@ -9,7 +9,7 @@ function DecadeSelector({ onSelect }) {
         <button
           key={decade}
           onClick={() => onSelect(decade)}
-          className={`px-6 py-3 bg-white text-blue-700 border border-blue-600 rounded-xl shadow-md hover:bg-blue-600 hover:text-white transition-all duration-300 transform hover:scale-105 active:scale-95 animate-fade-in`}
+          className={`px-6 py-3 bg-amazonTimeline text-whiteTimeline border border-blackTimeline rounded-xl shadow-md hover:bg-blackTimeline hover:border-amazonTimeline hover:text-white transition-all transform hover:scale-150 active:scale-100`}
         >
           {decade}s
         </button>
