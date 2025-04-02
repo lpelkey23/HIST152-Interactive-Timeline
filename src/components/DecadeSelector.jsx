@@ -6,12 +6,25 @@ function DecadeSelector({ onSelect }) {
   ];
 
   return (
-    <div className="flex flex-wrap justify-center gap-4">
-      {decades.map((decade) => (
-        <Button key={decade} onClick={() => onSelect(decade)} variant="default">
-          {decade}s
-        </Button>
-      ))}
+    <div className="w-full overflow-x-auto pb-6">
+      <div className="relative flex items-center justify-between px-6 py-10 w-[2000px] max-w-none">
+        {/* Timeline line */}
+        <div className="absolute top-12 left-0 w-full h-0.5 bg-gray-400 z-0" />
+
+        {decades.map((decade) => (
+          <div key={decade} className="relative flex flex-col items-center z-10">
+            {/* Dot on timeline */}
+            <div className="w-4 h-4 bg-emeraldTimeline rounded-full shadow mb-2" />
+            <Button
+              onClick={() => onSelect(decade)}
+              variant="default"
+              className="whitespace-nowrap text-xs"
+            >
+              {decade}s
+            </Button>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
