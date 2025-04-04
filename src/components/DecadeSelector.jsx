@@ -6,24 +6,34 @@ function DecadeSelector({ onSelect }) {
   ];
 
   return (
-    <div className="w-full overflow-x-auto pb-6">
-      <div className="relative flex items-center justify-between px-6 py-10 w-[2000px] max-w-none">
+    <div className="w-full overflow-x-hidden pb-6">
+      <div className="relative flex justify-evenly items-center px-6 py-16 w-full">
         {/* Timeline line */}
-        <div className="absolute top-12 left-0 w-full h-0.5 bg-gray-400 z-0" />
+        <div className="absolute top-1/2 -translate-y-1/2 w-full h-1 bg-gray-400 transform" />
 
-        {decades.map((decade) => (
-          <div key={decade} className="relative flex flex-col items-center z-10">
-            {/* Dot on timeline */}
-            <div className="w-4 h-4 bg-emeraldTimeline rounded-full shadow mb-2" />
-            <Button
-              onClick={() => onSelect(decade)}
-              variant="default"
-              className="whitespace-nowrap text-xs"
-            >
-              {decade}s
-            </Button>
-          </div>
-        ))}
+        {decades.map((decade, index) => {
+          const isAbove = index % 2 === 0;
+          return (
+            <div key={decade} className="flex flex-col items-center">
+              {/* Button above or below */}
+              {isAbove && (
+                <Button onClick={() => onSelect(decade)} variant="default" className="mb-20">
+                  {decade}s
+                </Button>
+              )}
+
+              {/* Dot on the timeline */}
+              <div className="absolute top-1/2 transform -translate-y-1/2 w-4 h-4 bg-emeraldTimeline rounded-full shadow" />
+
+              {/* Button below if not above */}
+              {!isAbove && (
+                <Button onClick={() => onSelect(decade)} variant="default" className="mt-20">
+                  {decade}s
+                </Button>
+              )}
+            </div>
+          );
+        })}
       </div>
     </div>
   );

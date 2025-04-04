@@ -18,7 +18,6 @@ function App() {
         </p>
       </div>
 
-      {/* Full-width decade timeline */}
       {!selectedDecade ? (
         <div className="w-full">
           <DecadeSelector onSelect={setSelectedDecade} />
