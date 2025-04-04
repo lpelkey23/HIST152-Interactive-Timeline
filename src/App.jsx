@@ -2,6 +2,7 @@ import './App.css';
 import { useState } from 'react';
 import DecadeSelector from './components/DecadeSelector';
 import Button from './components/Button';
+import YearSelector from './components/YearSelector';
 
 function App() {
   const [selectedDecade, setSelectedDecade] = useState(null);
@@ -23,8 +24,11 @@ function App() {
           <DecadeSelector onSelect={setSelectedDecade} />
         </div>
       ) : (
-        <div className="max-w-4xl mx-auto text-center animate-fade-in">
+        <div className="w-full mx-auto text-center animate-fade-in">
           <h2 className="text-3xl font-bold mb-4 text-redTimeline">Viewing: {selectedDecade}s</h2>
+
+          <YearSelector decade={selectedDecade} />
+
           <Button variant="default" onClick={() => setSelectedDecade(null)}>
             ⬅ Back to Decades
           </Button>
