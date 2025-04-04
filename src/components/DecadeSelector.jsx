@@ -17,7 +17,7 @@ function DecadeSelector({ onSelect }) {
             <div key={decade} className="flex flex-col items-center">
               {/* Button above or below */}
               {isAbove && (
-                <Button onClick={() => onSelect(decade)} variant="default" className="mb-20">
+                <Button onClick={() => onSelect(decade)} variant="decade" className="mb-20">
                   {decade}s
                 </Button>
               )}
@@ -27,7 +27,7 @@ function DecadeSelector({ onSelect }) {
 
               {/* Button below if not above */}
               {!isAbove && (
-                <Button onClick={() => onSelect(decade)} variant="default" className="mt-20">
+                <Button onClick={() => onSelect(decade)} variant="decade" className="mt-20">
                   {decade}s
                 </Button>
               )}
