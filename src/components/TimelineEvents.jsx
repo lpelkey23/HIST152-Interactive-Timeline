@@ -1,14 +1,11 @@
 export const exampleEvents = {
-  1969: [
+  1880: [
     {
-      title: 'Apollo 11 Moon Landing',
-      type: 'video',
-      src: 'https://www.youtube.com/embed/cwZb2mqId0A',
-    },
-    {
-      title: 'Woodstock Music Festival',
-      type: 'image',
-      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Woodstock_redmond_stage.JPG/800px-Woodstock_redmond_stage.JPG',
+      title: 'Thomas Edison Invents the Light Bulb',
+      type: 'pdf',
+      src: '/Thomas_Edison_Patent.pdf',
+      description:
+        'Thomas Edison’s invention of the practical incandescent light bulb, along with the first electric utility system, marked a turning point in American history. It enabled homes and businesses to extend productive hours into the night and laid the foundation for the electrification of entire cities. This innovation is the starting point for your timeline because it powered the rest of modern technological development—from appliances to computers to satellites—shaping the infrastructure of daily life and industry.',
     },
   ],
   1963: [

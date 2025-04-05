@@ -13,7 +13,16 @@ export default function EventViewer({ event }) {
       );
     case 'pdf':
       return (
-        <iframe src={event.src} className="w-full max-w-4xl h-[80vh] mx-auto" title={event.title} />
+        <div>
+          <p className="font-serif text-2xl text-blackTimeline font-bold">{event.description}</p>
+          <iframe
+            src={event.src}
+            width="100%"
+            height="800px"
+            title={event.title}
+            style={{ border: '1px solid #ccc', marginTop: '1rem' }}
+          />
+        </div>
       );
     default:
       return <p className="text-lg text-gray-700">Unsupported event type.</p>;
