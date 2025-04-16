@@ -15,13 +15,35 @@ export default function EventViewer({ event }) {
       return (
         <div>
           <p className="font-serif text-2xl text-blackTimeline font-bold">{event.description}</p>
+          <a
+            href={event.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline mt-4 inline-block text-lg"
+          >
+            View Original Source
+          </a>
           <iframe
-            src={event.src}
+            src={`${import.meta.env.BASE_URL}${event.src}`}
             width="100%"
             height="800px"
             title={event.title}
             style={{ border: '1px solid #ccc', marginTop: '1rem' }}
           />
+        </div>
+      );
+    case 'external':
+      return (
+        <div>
+          <p className="font-serif text-2xl text-blackTimeline font-bold">{event.description}</p>
+          <a
+            href={event.src}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline mt-4 inline-block text-lg"
+          >
+            View Original Source
+          </a>
         </div>
       );
     default:

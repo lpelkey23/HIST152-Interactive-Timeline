@@ -3,24 +3,25 @@ export const exampleEvents = {
     {
       title: 'Edison’s Light Bulb Patent',
       type: 'pdf',
-      src: '/Thomas_Edison_Patent.pdf',
+      src: '1880.pdf',
+      link: 'https://www.archives.gov/milestone-documents/thomas-edisons-patent-application-for-the-light-bulb',
       description:
         'In 1880, Thomas Edison was granted U.S. Patent No. 223,898 for his electric lamp, marking a major breakthrough in electric lighting. Though Edison had begun experimenting with carbon filaments as early as 1878, his success laid the foundation for a networked system of power distribution developed throughout the early 1880s. This invention was key to the electrification of American homes and industries, which would fuel nearly every technological innovation that followed.',
     },
   ],
   1881: [
     {
-      title: 'First Central Electric Power Station',
-      type: 'web',
-      src: 'https://www.pbs.org/wgbh/americanexperience/features/edison-electric/',
+      title: 'World’s First Electric Streetcar Launches in Berlin',
+      type: 'pdf',
+      src: '1881.pdf',
       description:
-        'In 1881, Thomas Edison established one of the world’s first central electric power stations in New York. This allowed multiple customers to draw electric power from a single generating source, showcasing the future of centralized electricity distribution and urban infrastructure.',
+        'On May 12, 1881, Siemens & Halske inaugurated the world’s first electric streetcar in Groß-Lichterfelde, a suburb of Berlin. This innovation marked a significant advancement in urban transportation, demonstrating the potential of electric power for public transit and paving the way for modern electric rail systems.',
     },
   ],
   1882: [
     {
       title: 'Pearl Street Station Powers New York',
-      type: 'web',
+      type: 'external',
       src: 'https://www.coned.com/en/about-us/media-center/heritage/pearl-street-station',
       description:
         'In 1882, Edison’s Pearl Street Station began commercial operation in Lower Manhattan, serving over 80 customers. It became the first permanent central power station in the United States and marked the beginning of America’s electric utility industry.',
@@ -30,7 +31,7 @@ export const exampleEvents = {
     {
       title: 'Brooklyn Bridge Opens',
       type: 'pdf',
-      src: '/Brooklyn_Bridge.pdf',
+      src: '1883.pdf',
       description:
         'Completed in 1883 after more than a decade of construction, the Brooklyn Bridge became a symbol of American engineering achievement. It used innovative steel-wire suspension techniques and connected Manhattan and Brooklyn, reshaping city life and commerce. The project, conceived in the 1860s and completed under the Roebling family’s leadership, demonstrated the power of infrastructure innovation to transform society.',
     },
