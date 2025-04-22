@@ -3,7 +3,7 @@ export const exampleEvents = {
     {
       title: 'Tesla’s AC Motor Patented',
       type: 'pdf',
-      src: 'https://patents.google.com/patent/US381968A',
+      src: '1888.pdf',
       link: 'https://www.pbs.org/tesla/ins/lab_acmotor.html',
       description:
         'In 1888, Nikola Tesla received a patent for his alternating current (AC) induction motor. This invention enabled long-distance power transmission and formed the basis for modern electric power grids, transforming industries and homes.',
