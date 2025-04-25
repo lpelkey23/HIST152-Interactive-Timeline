@@ -13,8 +13,8 @@ export const exampleEvents = {
     {
       title: 'Alternating Current (AC) Wins the War of Currents',
       type: 'pdf',
-      src: 'https://www.energy.gov/articles/war-currents-ac-vs-dc-power',
-      link: 'https://www.pbs.org/tesla/ins/lab_acmotor.html',
+      src: '1892.pdf',
+      link: 'https://peaksubstation.com/war-of-the-currents-why-ac-won-over-dc/',
       description:
         'In 1892, the “War of Currents” tipped in favor of alternating current (AC) when Westinghouse and Tesla secured a contract to power the 1893 Chicago World’s Fair. This milestone cemented AC as the standard for long-distance power transmission in the U.S., shaping modern electrical infrastructure.',
     },
@@ -23,8 +23,8 @@ export const exampleEvents = {
     {
       title: 'Wright Brothers’ First Flight',
       type: 'pdf',
-      src: 'https://www.nasa.gov/image-article/first-successful-powered-flight/',
-      link: 'https://www.pbs.org/tesla/ins/lab_acmotor.html',
+      src: '1903.pdf',
+      link: 'https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000',
       description:
         'This breakthrough launched the age of aviation, transforming warfare through air power (fighter jets, bombers, drones) and civilian life with global air travel and rapid logistics—cornerstones of modern military operations and global commerce.',
     },
