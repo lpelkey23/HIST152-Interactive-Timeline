@@ -6,7 +6,7 @@ export const exampleEvents = {
       src: '1888.pdf',
       link: 'https://www.pbs.org/tesla/ins/lab_acmotor.html',
       description:
-        'In 1888, Nikola Tesla received a patent for his alternating current (AC) induction motor. This invention enabled long-distance power transmission and formed the basis for modern electric power grids, transforming industries and homes.',
+        'In 1888, Nikola Tesla patented the AC induction motor, a design that allowed electricity to be transmitted over long distances. Unlike earlier systems, AC could power homes and factories far from power plants.\n\nThis invention laid the groundwork for modern electrical grids. It helped bring power to rural areas and shaped the way energy is delivered to this day.',
     },
   ],
   1892: [
@@ -16,7 +16,7 @@ export const exampleEvents = {
       src: '1892.pdf',
       link: 'https://peaksubstation.com/war-of-the-currents-why-ac-won-over-dc/',
       description:
-        'In 1892, the “War of Currents” tipped in favor of alternating current (AC) when Westinghouse and Tesla secured a contract to power the 1893 Chicago World’s Fair. This milestone cemented AC as the standard for long-distance power transmission in the U.S., shaping modern electrical infrastructure.',
+        'In 1892, Westinghouse and Tesla secured the contract to power the Chicago World’s Fair, proving the advantages of AC power. This victory marked the end of the “War of Currents” against Edison’s DC system.\n\nChoosing AC set the standard for power transmission across the U.S. and the world. It made reliable electricity a reality for millions.',
     },
   ],
   1903: [
@@ -26,7 +26,7 @@ export const exampleEvents = {
       src: '1903.pdf',
       link: 'https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000',
       description:
-        'This breakthrough launched the age of aviation, transforming warfare through air power (fighter jets, bombers, drones) and civilian life with global air travel and rapid logistics—cornerstones of modern military operations and global commerce.',
+        'In 1903, the Wright brothers completed the first powered, controlled flight in Kitty Hawk, North Carolina. Their Flyer covered 120 feet in 12 seconds.\n\nThis moment sparked the aviation industry, reshaping travel, war, and commerce. Today’s globalized world relies on air travel born from this leap.',
     },
   ],
   1947: [
@@ -36,7 +36,7 @@ export const exampleEvents = {
       src: '1947.pdf',
       link: 'https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/',
       description:
-        'In 1947, Bell Labs researchers invented the transistor, a tiny semiconductor switch that would replace bulky vacuum tubes. This breakthrough enabled miniaturized electronics, revolutionizing communication, computing, and space technology.',
+        'The first transistor, invented in 1947, replaced bulky vacuum tubes with a tiny, efficient switch. It was faster, smaller, and more reliable.\n\nThis paved the way for modern electronics—from radios to smartphones—by shrinking and speeding up computing.',
     },
   ],
   1969: [
@@ -46,7 +46,7 @@ export const exampleEvents = {
       src: '1969.pdf',
       link: 'https://conferences.ucla.edu/ucla-birthplace-of-the-internet/',
       description:
-        'ARPANET introduced digital networking for military coordination and academic research, laying the foundation for the internet. Today, this network enables everything from encrypted battlefield communication to global commerce, cybersecurity, and social media.',
+        'ARPANET, the first digital network, sent its first message in 1969. Funded by the U.S. military, it connected universities and research labs.\n\nIt laid the groundwork for the internet, changing how people share information, communicate, and work worldwide.',
     },
   ],
   1971: [
@@ -56,7 +56,7 @@ export const exampleEvents = {
       src: '1971.pdf',
       link: 'https://www.intel.com/content/www/us/en/history/virtual-vault/articles/the-intel-4004.html',
       description:
-        'In 1971, Intel launched the 4004, the world’s first commercial microprocessor. This compact chip put computing power in the palm of a hand, launching the age of personal and embedded computing that would define modern devices.',
+        'Intel’s 4004 was the first commercial microprocessor—a full CPU on a single chip. It could do basic logic and math, all in a tiny space.\n\nIt started the personal computing era and powers everything from calculators to cars today.',
     },
   ],
   1973: [
@@ -66,7 +66,7 @@ export const exampleEvents = {
       src: '1973.pdf',
       link: 'https://www.npr.org/2023/04/03/1167815751/50-years-ago-martin-cooper-made-the-first-cell-phone-call',
       description:
-        'Initiated mobile communication, evolving into smartphones that now power military field communication, civilian connectivity, navigation, and information sharing—essential for modern life and defense operations alike.',
+        'Martin Cooper made the first handheld mobile phone call in 1973. It was bulky, had poor battery life, and cost a fortune.\n\nStill, it was the start of wireless communication. Today’s smartphones are direct descendants of this moment.',
     },
   ],
   1978: [
@@ -76,7 +76,7 @@ export const exampleEvents = {
       src: '1978.pdf',
       link: 'https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1978-020A',
       description:
-        'Initially developed for precise military navigation and targeting, GPS now underpins global civilian infrastructure, from aviation and maritime transport to everyday smartphone navigation, agriculture, and disaster response.',
+        'The U.S. launched Navstar 1 in 1978, beginning the GPS system. Originally for military use, it allowed for precise navigation from space.\n\nToday, GPS guides planes, cars, phones, and even farming equipment. It’s everywhere, from city maps to disaster relief.',
     },
   ],
   1980: [
@@ -86,7 +86,7 @@ export const exampleEvents = {
       src: '1980.pdf',
       link: 'https://standards.ieee.org/beyond-standards/ethernet-50th-anniversary/',
       description:
-        'Standardized local networking, becoming the backbone for military command centers and civilian internet infrastructure—crucial for secure data exchange, logistics coordination, and daily communication systems.',
+        'In 1980, Ethernet was standardized, creating a common way for computers to connect and share data in local networks.\n\nEthernet became the backbone of office and home networks. It made fast, wired communication a reliable standard.',
     },
   ],
   1983: [
@@ -96,7 +96,7 @@ export const exampleEvents = {
       src: '1983.pdf',
       link: 'https://www.usg.edu/galileo/skills/unit07/internet07_02.phtml',
       description:
-        'On January 1, 1983, ARPANET officially adopted the TCP/IP protocol, enabling disparate networks to interconnect. This event is considered the birth of the modern internet, transforming how digital systems communicate globally.',
+        'In 1983, ARPANET switched to the TCP/IP protocol, allowing different networks to communicate as one.\n\nThis switch marked the technical birth of the modern internet, where networks around the globe could finally talk to each other.',
     },
   ],
   1989: [
@@ -106,7 +106,7 @@ export const exampleEvents = {
       src: '1989.pdf',
       link: 'https://www.w3.org/History/1989/proposal.html',
       description:
-        'In 1989, Tim Berners-Lee proposed the World Wide Web while working at CERN. His system for linking and accessing information across the internet set the stage for the web browser revolution of the 1990s.',
+        'Tim Berners-Lee proposed the World Wide Web in 1989—a way to link information using “hypertext” and access it through browsers.\n\nIt gave people an easy, visual way to explore the internet and sparked the rise of websites, search engines, and online life.',
     },
   ],
   1991: [
@@ -116,7 +116,7 @@ export const exampleEvents = {
       src: '1991.pdf',
       link: 'https://home.web.cern.ch/science/computing/birth-web/short-history-web',
       description:
-        'In 1991, the World Wide Web became publicly accessible. It quickly transformed the internet from a scientific tool into a global platform for commerce, communication, and information sharing.',
+        'The web became publicly accessible in 1991, letting anyone with a computer browse linked pages.\n\nThis opened the door to online business, social networks, news, and more—reshaping how we live, learn, and connect.',
     },
   ],
   1997: [
@@ -126,7 +126,7 @@ export const exampleEvents = {
       src: '1997.pdf',
       link: 'https://standards.ieee.org/ieee/802.11/1163/',
       description:
-        'In 1997, the first version of the 802.11 Wi-Fi standard was released. This wireless networking protocol enabled high-speed internet access without cables, sparking the mobile computing era.',
+        'The first Wi-Fi standard (802.11) launched in 1997, allowing computers to access the internet wirelessly.\n\nWi-Fi made laptops, phones, and tablets mobile, fueling the rise of portable work and entertainment.',
     },
   ],
   2000: [
@@ -136,7 +136,7 @@ export const exampleEvents = {
       src: '2000.pdf',
       link: 'https://www.gps.gov/systems/gps/modernization/sa/',
       description:
-        'On May 1, 2000, President Bill Clinton ordered the deactivation of “Selective Availability,” unlocking high-precision GPS for civilian use. While GPS was developed in the 1970s and 80s for military applications, this decision allowed it to become a core part of modern life—powering phones, cars, agriculture, and more.',
+        'In 2000, the U.S. turned off “Selective Availability,” allowing civilians to use GPS with full precision.\n\nThis turned GPS into a public utility, powering apps for maps, ridesharing, fitness, delivery, and more.',
     },
   ],
   2007: [
@@ -146,7 +146,7 @@ export const exampleEvents = {
       src: '2007.pdf',
       link: 'https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/',
       description:
-        'In 2007, Apple released the iPhone, combining phone, internet, and media into one device. It kicked off the smartphone era, transforming communication, computing, photography, and consumer culture.',
+        'Apple launched the iPhone in 2007, merging a phone, iPod, and internet browser into one sleek device.\n\nThe iPhone redefined mobile tech, setting the stage for apps, social media, and modern smartphones.',
     },
   ],
   2009: [
@@ -156,7 +156,7 @@ export const exampleEvents = {
       src: '2009.pdf',
       link: 'https://bitcoin.org/bitcoin.pdf',
       description:
-        'Pioneered blockchain technology, now used beyond cryptocurrency in military supply chain security, encrypted communications, and civilian sectors like finance and digital identity.',
+        'Bitcoin’s launch introduced blockchain—a new kind of secure, decentralized record-keeping.\n\nIt challenged traditional finance and sparked innovations in digital currency, contracts, and secure systems.',
     },
   ],
   2015: [
@@ -166,7 +166,7 @@ export const exampleEvents = {
       src: '2015.pdf',
       link: 'https://electrek.co/2015/10/14/tesla-reveals-all-the-details-of-its-autopilot-and-its-software-v7-0-slide-presentation-and-audio-conference/',
       description:
-        'Advanced autonomous vehicle technology, informing both civilian self-driving cars and military unmanned systems (drones, autonomous convoys), reshaping transport safety, logistics, and battlefield mobility.',
+        'Tesla’s Autopilot debuted in 2015, letting cars steer, accelerate, and brake with minimal human input.\n\nIt pushed the conversation on self-driving cars forward, influencing future transit systems and safety tech.',
     },
   ],
   2020: [
@@ -176,7 +176,7 @@ export const exampleEvents = {
       src: '2020.pdf',
       link: 'https://www.fda.gov/media/144412/download',
       description:
-        'In 2020, Pfizer-BioNTech and Moderna released the first mRNA vaccines to combat COVID-19. These vaccines were developed and approved in record time, showcasing how biotech innovation can rapidly address global health crises.',
+        'Pfizer and Moderna released mRNA vaccines in 2020, using a new approach to teach cells to fight COVID-19.\n\nIt was a leap for science—faster to make, adaptable, and now a tool for future pandemics and diseases.',
     },
   ],
   2023: [
@@ -186,7 +186,7 @@ export const exampleEvents = {
       src: '2023.pdf',
       link: 'https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/',
       description:
-        'In 2023, ChatGPT became one of the fastest-growing consumer applications in history. Its natural language capabilities transformed education, writing, customer service, and productivity tools across industries.',
+        'ChatGPT went viral in 2023, showing how far AI could go in natural conversation and problem-solving.\n\nIt’s changing how we write, learn, work, and interact with machines—bringing AI into everyday life.',
     },
   ],
   2025: [
@@ -196,7 +196,7 @@ export const exampleEvents = {
       src: '2025.pdf',
       link: 'https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices',
       description:
-        'In 2025, the FDA approved an AI system capable of diagnosing early-stage diseases with human-level accuracy. This breakthrough represents the convergence of machine learning and medicine, promising faster, more accurate diagnostics.',
+        'In 2025, the FDA approved an AI tool that could detect early-stage disease with accuracy matching human doctors.\n\nThis milestone marks the growing role of AI in medicine—making healthcare faster, smarter, and more accessible.',
     },
   ],
 };
